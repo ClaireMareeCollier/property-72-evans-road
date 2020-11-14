@@ -9,7 +9,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
-  Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline' https://stackpath.bootstrapcdn.com; script-src 'self' https://stackpath.bootstrapcdn.com https://code.jquery.com/; img-src 'self' https:;"
   X-Frame-Options = "DENY"
   X-Content-Type-Options = "nosniff"
   X-XSS-Protection = "1; mode=block"
