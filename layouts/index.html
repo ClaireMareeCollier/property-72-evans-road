@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ .Site.Params.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+  <!-- make "pre" code blocks look better and center images -->
+  <style>
+    pre {
+    padding: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<!-- custom HTML non-markdown stuff here -->
+
+<body>
+  <!-- background bar -->
+  <div class="stripe" style="background-color:{{ .Site.Params.background }};position:absolute;height:125px;width:100vw;z-index:-1;"></div>
+  
+  <!-- content -->
+  <div class="container">
+      <div class="row">
+
+          <!-- title text (centered) -->
+          <div class="mx-auto text-center" style="background-color: #fff;width: min( 100vw, 800px);padding:20px;position:relative;top: 80px;">
+            <h1>{{ .Site.Params.title }}</h1>
+          </div>
+
+          <!-- remaining content in a 800px width max 20px padded div -->
+          <div class="mx-auto" style="background-color: #fff;width:800px;padding:20px;position:relative;top: 75px;">
+              <!-- I chose a more complex example to fetch "{{ .Content }}" for the clear ability break into seperate markdown pages -->
+              {{ (.Site.GetPage "_index.md").Content }}
+          </div>
+      </div>
+  </div>
+</body>
+
+</html>
