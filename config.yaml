@@ -7,3 +7,6 @@ params:
 markup:
   highlight:
     style: friendly
+  goldmark:
+    renderer:
+      unsafe: true
