@@ -1,5 +1,15 @@
 ## 72 Evans Road, Glelwood, Durban
 
+## Price: R 1 975 000
+
+Monthly bond repayment: R 15 312 ([bond calculator](https://www.privateproperty.co.za/bond-calculator.htm))
+
+## Location
+
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=72%20Evans%20Road%2C%20Glenwood%2C%20Durban&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/1/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+## Description
+
 THREE BEDROOM SINGLE STORY HOME WITH DRIVE IN ACCESS
 
 Beautiful, well loved home in an elevated position and friendly neighbourhood close to shops and excellent schools. 
@@ -130,7 +140,3 @@ $(document).ready(function(){
         $("#myCarousel").carousel();
 });
 </script>
-
-## Price: R 1 975 000
-
-Monthly bond repayment: R 15 312 ([bond calculator](https://www.privateproperty.co.za/bond-calculator.htm))
