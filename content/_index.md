@@ -48,82 +48,82 @@ Book your viewing with Claire soon on 0741397009 or via email on claire.m.collie
     <!-- Wrapper for carousel items -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/01.jpg">
+            <img src="img/scaled/01.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/02.jpg">
+            <img src="img/scaled/02.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/03.jpg">
+            <img src="img/scaled/03.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/04.jpg">
+            <img src="img/scaled/04.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/05.jpg">
+            <img src="img/scaled/05.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/06.jpg">
+            <img src="img/scaled/06.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/07.jpg">
+            <img src="img/scaled/07.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/08.jpg">
+            <img src="img/scaled/08.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/09.jpg">
+            <img src="img/scaled/09.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/10.jpg">
+            <img src="img/scaled/10.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/11.jpg">
+            <img src="img/scaled/11.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/12.jpg">
+            <img src="img/scaled/12.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/13.jpg">
+            <img src="img/scaled/13.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/14.jpg">
+            <img src="img/scaled/14.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/15.jpg">
+            <img src="img/scaled/15.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/16.jpg">
+            <img src="img/scaled/16.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/17.jpg">
+            <img src="img/scaled/17.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/18.jpg">
+            <img src="img/scaled/18.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/19.jpg">
+            <img src="img/scaled/19.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/20.jpg">
+            <img src="img/scaled/20.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/21.jpg">
+            <img src="img/scaled/21.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/22.jpg">
+            <img src="img/scaled/22.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/23.jpg">
+            <img src="img/scaled/23.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/24.jpg">
+            <img src="img/scaled/24.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/25.jpg">
+            <img src="img/scaled/25.jpg">
         </div>
         <div class="carousel-item">
-            <img src="img/26.jpg">
+            <img src="img/scaled/26.jpg">
         </div>
     </div>
     <!-- Carousel controls -->
