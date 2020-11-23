@@ -1,0 +1,14 @@
+{
+    "property_title": "72 Evans Road Glenwood, Durban",
+    "price": "R 1 975 000",
+    "main_carousel": [
+       {"url":  "img/scaled/01.jpg" },
+       {"url":  "img/scaled/04.jpg" },
+       {"url":  "img/scaled/08.jpg" },
+       {"url":  "img/scaled/18.jpg" },
+       {"url":  "img/scaled/24.jpg" }
+    ],
+    "gallery": [
+
+    ]
+}

@@ -1,54 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>{{ .Site.Params.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
-  <!-- make "pre" code blocks look better and center images -->
-  <style>
-    pre {
-    padding: 15px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: justify;
-    }
-    img {
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-      height: auto;
-    }
-    iframe {
-      width:100%;
-      height:100%;
-    }
-  </style>
-</head>
-
-<!-- custom HTML non-markdown stuff here -->
-
-<body>
-  <!-- background bar -->
-  <div class="stripe" style="background-color:{{ .Site.Params.background }};position:absolute;height:125px;width:100vw;z-index:-1;"></div>
+{{ define "main" }}
+ <!-- background bar -->
+ <div class="stripe" style="background-color:{{ .Site.Params.background }};position:absolute;height:125px;width:100vw;z-index:-1;"></div>
   
-  <!-- content -->
+ <!-- content -->
   <div class="container">
-      <div class="row">
-
-          <!-- title text (centered) -->
-          <div class="mx-auto text-center" style="background-color: #fff;width: min( 100vw, 800px);padding:20px;position:relative;top: 80px;">
-            <h1>{{ .Site.Params.title }}</h1>
-          </div>
-
-          <!-- remaining content in a 800px width max 20px padded div -->
-          <div class="mx-auto" style="background-color: #fff;width:800px;padding:20px;position:relative;top: 75px;">
-              <!-- I chose a more complex example to fetch "{{ .Content }}" for the clear ability break into seperate markdown pages -->
-              {{ (.Site.GetPage "_index.md").Content }}
-          </div>
+    <div class="row">
+      <!-- title text (centered) -->
+      <div class="mx-auto text-center" style="background-color: #fff;width: min( 100vw, 1300px);padding:20px;position:relative;top: 80px;">
+        <h1>{{ .Site.Params.title }}</h1>
       </div>
-  </div>
-</body>
 
-</html>
+      <!-- remaining content in a 1300px width max 20px padded div -->
+      <div class="mx-auto" style="width:1300px;position:relative;top: 75px;">
+        <!-- I chose a more complex example to fetch "{{ .Content }}" for the clear ability break into seperate markdown pages -->
+        {{/*  {{ (.Site.GetPage "_index.md").Content }}  */}}
+        
+        {{ partial "carousel.html" . }}
+
+        {{ partial "description_box.html" . }}
+
+        {{ partial "features_icon_box.html" . }}
+        
+        {{ partial "features_accordian.html" . }}
+
+        {{ partial "image_gallery" . }}
+    </div>
+</div>
+
+{{ end }}
