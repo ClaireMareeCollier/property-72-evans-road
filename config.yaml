@@ -1,4 +1,4 @@
-baseURL: "http://example.org/"
+baseURL: "https://property-72-evans-road.netlify.app/"
 languageCode: "en-us"
 params:
   title: "Property for Sale"

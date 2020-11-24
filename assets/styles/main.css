@@ -45,3 +45,8 @@ iframe {
 .CTA {
     color: #345282;
 }
+
+svg {
+    margin-right: 1%;
+    width: 16px!important;
+}
