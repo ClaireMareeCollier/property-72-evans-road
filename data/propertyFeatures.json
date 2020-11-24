@@ -1,0 +1,70 @@
+{
+    "features": [
+        {
+            "icon": "<i class='fas fa-parking' aria-hidden='true'></i>", 
+            "feature": "Parkings: ",
+            "value": 4
+        },
+        {
+            "icon": "<i class='fa fa-home' aria-hidden='true'></i>", 
+            "feature": "Automated Garage: ",
+            "value": 1
+        },
+        {
+            "icon": "<i class='fa fa-car' aria-hidden='true'></i>", 
+            "feature": "Carport: ",
+            "value": 1
+        },
+        {
+            "icon": "<i class='fas fa-bed' aria-hidden='true'></i>", 
+            "feature": "Bedrooms: ",
+            "value": 3
+        },
+        {
+            "icon": "<i class='fa fa-bath' aria-hidden='true'></i>", 
+            "feature": "Bathrooms: ",
+            "value": 2
+        },
+        {
+            "icon": "<i class='fa fa-snowflake' aria-hidden='true'></i>", 
+            "feature": "Aircons: ",
+            "value": 3
+        },
+        {
+            "icon": "<i class='fas fa-chair' aria-hidden='true'></i>", 
+            "feature": "Patio"
+        },
+        {
+            "icon": "<i class='fa fa-couch' aria-hidden='true'></i>", 
+            "feature": "Lounge"
+        },
+        {
+            "icon": "<i class='fas fa-coffee' aria-hidden='true'></i>", 
+            "feature": "Kitchen"
+        },
+        {
+            "icon": "<i class='fa fa-utensils' aria-hidden='true'></i>", 
+            "feature": "Dining Room"
+        },
+        {
+            "icon": "<i class='fa fa-wrench' aria-hidden='true'></i>", 
+            "feature": "Gardening storage room"
+        },
+        {
+            "icon": "<i class='fas fa-tshirt' aria-hidden='true'></i>", 
+            "feature": "Laundry "
+        },
+        {
+            "icon": "<i class='fa fa-shower' aria-hidden='true'></i>", 
+            "feature": "Outside shower and toilet"
+        },
+        {
+            "icon": "<i class='fa fa-pizza-slice' aria-hidden='true'></i>", 
+            "feature": "Pizza Oven"
+        },
+        {
+            "icon": "<i class='fa fa-bell' aria-hidden='true'></i>", 
+            "feature": "Security System"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<section class="info-block">
+    <div class="row">
+        {{ range .Site.Data.propertyFeatures.features }}
+            <div class="col-md-4 col-sm-6">
+                <p><span>{{ .icon | safeHTML}}</span> {{ .feature }} {{if .value }} {{ .value }} {{ end }} </p>
+            </div>
+        {{ end }}
+    </div>
+</section>

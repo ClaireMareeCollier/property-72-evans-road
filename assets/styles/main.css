@@ -1,0 +1,47 @@
+body {
+    background-color: #f6f6f6 !important;
+    color: #515b6d;
+}
+iframe {
+    width: 100% !important;
+    padding: 5px;
+}
+.page-wrapper {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.info-block {
+    border: 1px solid #d8dce3;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+}
+/* bootstrap overrides */
+.card {
+    border: 0 !important;
+}
+.card-header {
+    background-color: transparent !important;
+}
+.card-body {
+    border-bottom: 1px solid #efefef;
+}
+
+.card-header button::after {
+    font-family: "FontAwesome";
+    content: "\f077";
+    float: right;
+}
+.card-header .collapsed::after {
+    font-family: "FontAwesome";
+    content: "\f078";
+    float: right;
+}
+
+.CTA {
+    color: #345282;
+}
