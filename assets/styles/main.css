@@ -46,6 +46,7 @@ iframe {
     color: #345282;
 }
 
-span {
+svg {
     margin-right: 1%;
+    width: 16px!important;
 }
